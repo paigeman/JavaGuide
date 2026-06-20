@@ -1986,7 +1986,3 @@ threadnum:7is finish
 - 从 ReentrantLock 的实现看 AQS 的原理及应用：<https://tech.meituan.com/2019/12/05/aqs-theory-and-apply.html>
 
 <!-- @include: @article-footer.snippet.md -->
-
-```
-
-```
