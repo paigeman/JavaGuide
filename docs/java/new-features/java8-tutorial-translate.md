@@ -495,7 +495,7 @@ forEach 是为 Lambda 而设计的，保持了最紧凑的风格。而且 Lambda
 
 ### Match（匹配）
 
-Stream 提供了多种匹配操作，允许检测指定的 Predicate 是否匹配整个 Stream。所有的匹配操作都是 **最终操作**，并返回一个 boolean 类型的值。
+Stream 提供了多种匹配操作，允许检测指定的 Predicate 是否匹配 Stream 中的元素。所有的匹配操作都是 **最终操作**，并且具备短路特性，一旦得出确切结果就会立即返回一个 boolean 类型的值。
 
 ```java
         // 测试 Match (匹配)操作
